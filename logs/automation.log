@@ -1,0 +1,84 @@
+2026-04-05 00:16:07 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\sunda\eclipse-workspace\MobileV3\testng.xml"
+2026-04-05 00:16:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sunda\eclipse-workspace\MobileV3\testng.xml
+
+2026-04-05 00:16:08 INFO  ExtentReportManager:37 - ===== Test Execution Started =====
+2026-04-05 00:16:08 DEBUG ExtentReportManager:43 - Generated report name: Test-Report-2026.04.05.00.16.08.html
+2026-04-05 00:16:08 DEBUG ExtentReportManager:63 - OS: null, Browser: null
+2026-04-05 00:16:08 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:16:08 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:16:08 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:16:08 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:16:08 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:16:21 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:16:21 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:16:21 INFO  ValidateToastMessage:20 - ===== Starting ValidateToastMessageTest =====
+2026-04-05 00:16:21 INFO  ValidateToastMessage:24 - Initializing HomePage
+2026-04-05 00:16:21 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:16:22 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:16:22 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:16:22 DEBUG ValidateToastMessage:27 - Clicking Let's Shop button without entering name
+2026-04-05 00:16:22 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:16:22 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:16:25 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:16:25 DEBUG ValidateToastMessage:30 - Fetching Toast message
+2026-04-05 00:16:25 INFO  HomePage:123 - Fetching toast message
+2026-04-05 00:16:27 DEBUG HomePage:128 - Toast message retrieved: Please enter your name
+2026-04-05 00:16:27 INFO  ValidateToastMessage:32 - Toast message retrieved: Please enter your name
+2026-04-05 00:16:27 DEBUG ValidateToastMessage:36 - Validating Toast message
+2026-04-05 00:16:27 ERROR ValidateToastMessage:41 - Assertion FAILED: Expected 'Please enter your name' but found 'Please enter your name'
+2026-04-05 00:16:27 DEBUG RetryAnalyzer:18 - Entering retry method for test: ValidateToastMessageTest
+2026-04-05 00:16:27 WARN  RetryAnalyzer:25 - Retrying test 'ValidateToastMessageTest' (Attempt 1 of 2)
+2026-04-05 00:16:27 DEBUG RetryAnalyzer:27 - Test 'ValidateToastMessageTest' failed due to: expected [Please enter your names] but found [Please enter your name]
+2026-04-05 00:16:27 WARN  ExtentReportManager:130 - Test SKIPPED: ValidateToastMessageTest
+2026-04-05 00:16:27 DEBUG ExtentReportManager:140 - Skip reason: expected [Please enter your names] but found [Please enter your name]
+2026-04-05 00:16:27 INFO  ValidateToastMessage:20 - ===== Starting ValidateToastMessageTest =====
+2026-04-05 00:16:27 INFO  ValidateToastMessage:24 - Initializing HomePage
+2026-04-05 00:16:27 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:16:27 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:16:27 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:16:27 DEBUG ValidateToastMessage:27 - Clicking Let's Shop button without entering name
+2026-04-05 00:16:27 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:16:27 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:16:27 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:16:27 DEBUG ValidateToastMessage:30 - Fetching Toast message
+2026-04-05 00:16:27 INFO  HomePage:123 - Fetching toast message
+2026-04-05 00:16:28 DEBUG HomePage:128 - Toast message retrieved: Please enter your name
+2026-04-05 00:16:28 INFO  ValidateToastMessage:32 - Toast message retrieved: Please enter your name
+2026-04-05 00:16:28 DEBUG ValidateToastMessage:36 - Validating Toast message
+2026-04-05 00:16:28 ERROR ValidateToastMessage:41 - Assertion FAILED: Expected 'Please enter your name' but found 'Please enter your name'
+2026-04-05 00:16:28 DEBUG RetryAnalyzer:18 - Entering retry method for test: ValidateToastMessageTest
+2026-04-05 00:16:28 WARN  RetryAnalyzer:25 - Retrying test 'ValidateToastMessageTest' (Attempt 2 of 2)
+2026-04-05 00:16:28 DEBUG RetryAnalyzer:27 - Test 'ValidateToastMessageTest' failed due to: expected [Please enter your names] but found [Please enter your name]
+2026-04-05 00:16:28 WARN  ExtentReportManager:130 - Test SKIPPED: ValidateToastMessageTest
+2026-04-05 00:16:28 DEBUG ExtentReportManager:140 - Skip reason: expected [Please enter your names] but found [Please enter your name]
+2026-04-05 00:16:28 INFO  ValidateToastMessage:20 - ===== Starting ValidateToastMessageTest =====
+2026-04-05 00:16:28 INFO  ValidateToastMessage:24 - Initializing HomePage
+2026-04-05 00:16:28 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:16:28 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:16:28 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:16:28 DEBUG ValidateToastMessage:27 - Clicking Let's Shop button without entering name
+2026-04-05 00:16:28 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:16:28 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:16:29 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:16:29 DEBUG ValidateToastMessage:30 - Fetching Toast message
+2026-04-05 00:16:29 INFO  HomePage:123 - Fetching toast message
+2026-04-05 00:16:29 DEBUG HomePage:128 - Toast message retrieved: Please enter your name
+2026-04-05 00:16:29 INFO  ValidateToastMessage:32 - Toast message retrieved: Please enter your name
+2026-04-05 00:16:29 DEBUG ValidateToastMessage:36 - Validating Toast message
+2026-04-05 00:16:29 ERROR ValidateToastMessage:41 - Assertion FAILED: Expected 'Please enter your name' but found 'Please enter your name'
+2026-04-05 00:16:29 DEBUG RetryAnalyzer:18 - Entering retry method for test: ValidateToastMessageTest
+2026-04-05 00:16:29 ERROR RetryAnalyzer:32 - Max retry attempts reached for test 'ValidateToastMessageTest'. Marking as FAILED.
+2026-04-05 00:16:29 DEBUG RetryAnalyzer:39 - Exiting retry method for test: ValidateToastMessageTest
+2026-04-05 00:16:29 ERROR ExtentReportManager:96 - Test FAILED: ValidateToastMessageTest
+2026-04-05 00:16:29 DEBUG ExtentReportManager:106 - Failure reason: expected [Please enter your names] but found [Please enter your name]
+2026-04-05 00:16:29 WARN  ExtentReportManager:111 - RetryAnalyzer is applied for test: ValidateToastMessageTest
+2026-04-05 00:16:29 DEBUG BaseClass:81 - Capturing screenshot for test: ValidateToastMessageTest
+2026-04-05 00:16:31 INFO  BaseClass:93 - Screenshot saved at: C:\Users\sunda\eclipse-workspace\MobileV3\screenshots\ValidateToastMessageTest_20260405001629.png
+2026-04-05 00:16:31 DEBUG ExtentReportManager:118 - Screenshot captured at: C:\Users\sunda\eclipse-workspace\MobileV3\screenshots\ValidateToastMessageTest_20260405001629.png
+2026-04-05 00:16:31 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:16:31 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:16:32 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:16:32 INFO  ExtentReportManager:150 - ===== Test Execution Finished =====
+2026-04-05 00:16:32 DEBUG ExtentReportManager:154 - Extent report flushed successfully.
+2026-04-05 00:16:32 DEBUG ExtentReportManager:159 - Opening report at: C:\Users\sunda\eclipse-workspace\MobileV3\reports\Test-Report-2026.04.05.00.16.08.html
