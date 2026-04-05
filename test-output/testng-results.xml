@@ -1,159 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="0" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-05T00:16:08 EDT" name="Suite" finished-at="2026-04-05T00:16:32 EDT" duration-ms="23569">
+  <suite started-at="2026-04-05T00:35:20 EDT" name="Suite" finished-at="2026-04-05T00:40:18 EDT" duration-ms="297734">
     <groups>
     </groups>
-    <test started-at="2026-04-05T00:16:08 EDT" name="Test" finished-at="2026-04-05T00:16:32 EDT" duration-ms="23569">
-      <class name="testCases.ValidateToastMessage">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.ValidateToastMessage@78383390]" started-at="2026-04-05T00:16:08 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:16:21 EDT" duration-ms="12406" status="PASS">
+    <test started-at="2026-04-05T00:35:20 EDT" name="Test" finished-at="2026-04-05T00:40:18 EDT" duration-ms="297734">
+      <class name="testCases.ShopSelectingUnitedStates">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.ShopSelectingUnitedStates@7862f56]" started-at="2026-04-05T00:38:20 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:38:31 EDT" duration-ms="10649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method retried="true" signature="ValidateToastMessageTest()[pri:0, instance:testCases.ValidateToastMessage@78383390]" started-at="2026-04-05T00:16:21 EDT" name="ValidateToastMessageTest" finished-at="2026-04-05T00:16:27 EDT" duration-ms="5814" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Please enter your names] but found [Please enter your name]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Please enter your names] but found [Please enter your name]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at testCases.ValidateToastMessage.ValidateToastMessageTest(ValidateToastMessage.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="ShopSelectingUnitedStatesTest()[pri:0, instance:testCases.ShopSelectingUnitedStates@7862f56]" started-at="2026-04-05T00:38:31 EDT" name="ShopSelectingUnitedStatesTest" finished-at="2026-04-05T00:39:58 EDT" duration-ms="87014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopSelectingUnitedStatesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ShopSelectingUnitedStates@7862f56]" started-at="2026-04-05T00:39:58 EDT" name="tearDown" finished-at="2026-04-05T00:40:00 EDT" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ShopSelectingUnitedStates -->
+      <class name="testCases.TermsAndConditions">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.TermsAndConditions@517d4a0d]" started-at="2026-04-05T00:37:48 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:37:59 EDT" duration-ms="10906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="TermsAndConditionsTest()[pri:0, instance:testCases.TermsAndConditions@517d4a0d]" started-at="2026-04-05T00:37:59 EDT" name="TermsAndConditionsTest" finished-at="2026-04-05T00:38:18 EDT" duration-ms="19585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsAndConditionsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TermsAndConditions@517d4a0d]" started-at="2026-04-05T00:38:18 EDT" name="tearDown" finished-at="2026-04-05T00:38:20 EDT" duration-ms="1973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TermsAndConditions -->
+      <class name="testCases.LaunchApp">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.LaunchApp@6ee6f53]" started-at="2026-04-05T00:35:20 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:35:33 EDT" duration-ms="12434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="LaunchAppTest()[pri:0, instance:testCases.LaunchApp@6ee6f53]" started-at="2026-04-05T00:35:33 EDT" name="LaunchAppTest" finished-at="2026-04-05T00:35:37 EDT" duration-ms="4553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LaunchApp@6ee6f53]" started-at="2026-04-05T00:35:37 EDT" name="tearDown" finished-at="2026-04-05T00:35:39 EDT" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LaunchApp -->
+      <class name="testCases.AddToCart">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.AddToCart@4fad9bb2]" started-at="2026-04-05T00:37:17 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:37:28 EDT" duration-ms="10626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="AddToCartTest()[pri:0, instance:testCases.AddToCart@4fad9bb2]" started-at="2026-04-05T00:37:28 EDT" name="AddToCartTest" finished-at="2026-04-05T00:37:46 EDT" duration-ms="18066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddToCart@4fad9bb2]" started-at="2026-04-05T00:37:46 EDT" name="tearDown" finished-at="2026-04-05T00:37:48 EDT" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddToCart -->
+      <class name="testCases.ValidateToastMessage">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.ValidateToastMessage@3a12c404]" started-at="2026-04-05T00:40:00 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:40:10 EDT" duration-ms="10268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="ValidateToastMessageTest()[pri:0, instance:testCases.ValidateToastMessage@3a12c404]" started-at="2026-04-05T00:40:10 EDT" name="ValidateToastMessageTest" finished-at="2026-04-05T00:40:16 EDT" duration-ms="6248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateToastMessageTest -->
-        <test-method retried="true" signature="ValidateToastMessageTest()[pri:0, instance:testCases.ValidateToastMessage@78383390]" started-at="2026-04-05T00:16:27 EDT" name="ValidateToastMessageTest" finished-at="2026-04-05T00:16:28 EDT" duration-ms="898" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Please enter your names] but found [Please enter your name]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Please enter your names] but found [Please enter your name]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at testCases.ValidateToastMessage.ValidateToastMessageTest(ValidateToastMessage.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateToastMessageTest -->
-        <test-method signature="ValidateToastMessageTest()[pri:0, instance:testCases.ValidateToastMessage@78383390]" started-at="2026-04-05T00:16:28 EDT" name="ValidateToastMessageTest" finished-at="2026-04-05T00:16:29 EDT" duration-ms="1604" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Please enter your names] but found [Please enter your name]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Please enter your names] but found [Please enter your name]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at testCases.ValidateToastMessage.ValidateToastMessageTest(ValidateToastMessage.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateToastMessageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ValidateToastMessage@78383390]" started-at="2026-04-05T00:16:31 EDT" name="tearDown" finished-at="2026-04-05T00:16:32 EDT" duration-ms="940" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ValidateToastMessage@3a12c404]" started-at="2026-04-05T00:40:16 EDT" name="tearDown" finished-at="2026-04-05T00:40:18 EDT" duration-ms="1252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.ValidateToastMessage -->
+      <class name="testCases.LetsShop">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.LetsShop@31bcf236]" started-at="2026-04-05T00:35:39 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:35:50 EDT" duration-ms="11010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="LetsShopTest()[pri:0, instance:testCases.LetsShop@31bcf236]" started-at="2026-04-05T00:35:50 EDT" name="LetsShopTest" finished-at="2026-04-05T00:35:58 EDT" duration-ms="8070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LetsShopTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LetsShop@31bcf236]" started-at="2026-04-05T00:35:58 EDT" name="tearDown" finished-at="2026-04-05T00:36:00 EDT" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LetsShop -->
+      <class name="testCases.CompletePurchase">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:testCases.CompletePurchase@4b3ed2f0]" started-at="2026-04-05T00:36:00 EDT" name="ConfigureAppium" finished-at="2026-04-05T00:36:10 EDT" duration-ms="10847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="CompletePurchaseTest()[pri:0, instance:testCases.CompletePurchase@4b3ed2f0]" started-at="2026-04-05T00:36:10 EDT" name="CompletePurchaseTest" finished-at="2026-04-05T00:37:15 EDT" duration-ms="64300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletePurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CompletePurchase@4b3ed2f0]" started-at="2026-04-05T00:37:15 EDT" name="tearDown" finished-at="2026-04-05T00:37:17 EDT" duration-ms="2713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CompletePurchase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

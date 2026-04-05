@@ -34,7 +34,7 @@ public class ValidateToastMessage extends BaseClass {
 			// Assertion with try-catch
 			try {
 				log.debug("Validating Toast message");
-				Assert.assertEquals(msg, "Please enter your names");
+				Assert.assertEquals(msg, "Please enter your name");
 				log.info("Assertion PASSED: Toast message is correct");
 
 			} catch (AssertionError ae) {

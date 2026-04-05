@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,40 +92,51 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.ValidateToastMessage" class="method navigator-link" hash-for-method="ValidateToastMessageTest">ValidateToastMessageTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.ValidateToastMessage" class="method navigator-link" hash-for-method="ValidateToastMessageTest">ValidateToastMessageTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.AddToCart" class="method navigator-link" hash-for-method="AddToCartTest">AddToCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.CompletePurchase" class="method navigator-link" hash-for-method="CompletePurchaseTest">CompletePurchaseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LaunchApp" class="method navigator-link" hash-for-method="LaunchAppTest">LaunchAppTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LetsShop" class="method navigator-link" hash-for-method="LetsShopTest">LetsShopTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.ShopSelectingUnitedStates" class="method navigator-link" hash-for-method="ShopSelectingUnitedStatesTest">ShopSelectingUnitedStatesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TermsAndConditions" class="method navigator-link" hash-for-method="TermsAndConditionsTest">TermsAndConditionsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.ValidateToastMessage" class="method navigator-link" hash-for-method="ValidateToastMessageTest">ValidateToastMessageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -137,9 +148,24 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ShopSelectingUnitedStates</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShopSelectingUnitedStatesTest">
+                  </a> <!-- ShopSelectingUnitedStatesTest -->
+                  <span class="method-name">ShopSelectingUnitedStatesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testCases.ValidateToastMessage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,47 +174,85 @@
                   <a name="ValidateToastMessageTest">
                   </a> <!-- ValidateToastMessageTest -->
                   <span class="method-name">ValidateToastMessageTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Please enter your names] but found [Please enter your name]
-	at testCases.ValidateToastMessage.ValidateToastMessageTest(ValidateToastMessage.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testCases.ValidateToastMessage</span>
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TermsAndConditions</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateToastMessageTest">
-                  </a> <!-- ValidateToastMessageTest -->
-                  <span class="method-name">ValidateToastMessageTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Please enter your names] but found [Please enter your name]
-	at testCases.ValidateToastMessage.ValidateToastMessageTest(ValidateToastMessage.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ValidateToastMessageTest">
-                  </a> <!-- ValidateToastMessageTest -->
-                  <span class="method-name">ValidateToastMessageTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Please enter your names] but found [Please enter your name]
-	at testCases.ValidateToastMessage.ValidateToastMessageTest(ValidateToastMessage.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
+                  <a name="TermsAndConditionsTest">
+                  </a> <!-- TermsAndConditionsTest -->
+                  <span class="method-name">TermsAndConditionsTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LaunchApp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAppTest">
+                  </a> <!-- LaunchAppTest -->
+                  <span class="method-name">LaunchAppTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LetsShop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LetsShopTest">
+                  </a> <!-- LetsShopTest -->
+                  <span class="method-name">LetsShopTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest">
+                  </a> <!-- AddToCartTest -->
+                  <span class="method-name">AddToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CompletePurchase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CompletePurchaseTest">
+                  </a> <!-- CompletePurchaseTest -->
+                  <span class="method-name">CompletePurchaseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -204,6 +268,12 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testCases.LaunchApp&quot;/&gt;
+      &lt;class name=&quot;testCases.LetsShop&quot;/&gt;
+      &lt;class name=&quot;testCases.CompletePurchase&quot;/&gt;
+      &lt;class name=&quot;testCases.AddToCart&quot;/&gt;
+      &lt;class name=&quot;testCases.TermsAndConditions&quot;/&gt;
+      &lt;class name=&quot;testCases.ShopSelectingUnitedStates&quot;/&gt;
       &lt;class name=&quot;testCases.ValidateToastMessage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -218,7 +288,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,24 +314,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ValidateToastMessageTest')
-data.setCell(0, 2, 'testCases.ValidateToastMessage')
-data.setCell(0, 3, 5814);
+data.setCell(0, 1, 'ShopSelectingUnitedStatesTest')
+data.setCell(0, 2, 'testCases.ShopSelectingUnitedStates')
+data.setCell(0, 3, 87014);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ValidateToastMessageTest')
-data.setCell(1, 2, 'testCases.ValidateToastMessage')
-data.setCell(1, 3, 1604);
+data.setCell(1, 1, 'CompletePurchaseTest')
+data.setCell(1, 2, 'testCases.CompletePurchase')
+data.setCell(1, 3, 64300);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidateToastMessageTest')
-data.setCell(2, 2, 'testCases.ValidateToastMessage')
-data.setCell(2, 3, 898);
+data.setCell(2, 1, 'TermsAndConditionsTest')
+data.setCell(2, 2, 'testCases.TermsAndConditions')
+data.setCell(2, 3, 19585);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AddToCartTest')
+data.setCell(3, 2, 'testCases.AddToCart')
+data.setCell(3, 3, 18066);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LetsShopTest')
+data.setCell(4, 2, 'testCases.LetsShop')
+data.setCell(4, 3, 8070);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateToastMessageTest')
+data.setCell(5, 2, 'testCases.ValidateToastMessage')
+data.setCell(5, 3, 6248);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LaunchAppTest')
+data.setCell(6, 2, 'testCases.LaunchApp')
+data.setCell(6, 3, 4553);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -287,28 +373,108 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.ValidateToastMessage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.LaunchApp</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">ConfigureAppium</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">ValidateToastMessageTest</span>
-                <span class="method-start">12423 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateToastMessageTest</span>
-                <span class="method-start">18255 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">ValidateToastMessageTest</span>
-                <span class="method-start">19158 ms</span>
+                <span class="method-name">LaunchAppTest</span>
+                <span class="method-start">12449 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22194 ms</span>
+                <span class="method-start">17018 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LetsShop</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">18563 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LetsShopTest</span>
+                <span class="method-start">29574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37647 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">39301 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">CompletePurchaseTest</span>
+                <span class="method-start">50148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114450 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">117163 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest</span>
+                <span class="method-start">127790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145858 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TermsAndConditions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">147315 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TermsAndConditionsTest</span>
+                <span class="method-start">158223 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177811 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ShopSelectingUnitedStates</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">179784 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ShopSelectingUnitedStatesTest</span>
+                <span class="method-start">190434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">277450 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateToastMessage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">279563 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidateToastMessageTest</span>
+                <span class="method-start">289831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">296080 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

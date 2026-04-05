@@ -6,12 +6,12 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <!--<class name="testCases.LaunchApp"/>
+      <class name="testCases.LaunchApp"/>
       <class name="testCases.LetsShop"/>
       <class name="testCases.CompletePurchase"/>
       <class name="testCases.AddToCart"/>
       <class name="testCases.TermsAndConditions"/>
-      <class name="testCases.ShopSelectingUnitedStates"/>-->
+      <class name="testCases.ShopSelectingUnitedStates"/>
       <class name="testCases.ValidateToastMessage"/>
     </classes>
   </test> <!-- Test -->

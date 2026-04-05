@@ -82,3 +82,367 @@
 2026-04-05 00:16:32 INFO  ExtentReportManager:150 - ===== Test Execution Finished =====
 2026-04-05 00:16:32 DEBUG ExtentReportManager:154 - Extent report flushed successfully.
 2026-04-05 00:16:32 DEBUG ExtentReportManager:159 - Opening report at: C:\Users\sunda\eclipse-workspace\MobileV3\reports\Test-Report-2026.04.05.00.16.08.html
+2026-04-05 00:34:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\sunda\eclipse-workspace\MobileV3\testng.xml"
+2026-04-05 00:34:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sunda\eclipse-workspace\MobileV3\testng.xml
+
+2026-04-05 00:34:30 INFO  ExtentReportManager:37 - ===== Test Execution Started =====
+2026-04-05 00:34:30 DEBUG ExtentReportManager:43 - Generated report name: Test-Report-2026.04.05.00.34.30.html
+2026-04-05 00:34:31 DEBUG ExtentReportManager:63 - OS: null, Browser: null
+2026-04-05 00:34:31 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:34:31 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:34:31 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:34:31 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:34:31 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:34:43 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:34:43 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:34:43 INFO  LaunchApp:20 - ===== Starting LaunchAppTest =====
+2026-04-05 00:34:43 INFO  LaunchApp:23 - Initializing HomePage
+2026-04-05 00:34:43 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:34:44 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:34:44 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:34:44 DEBUG LaunchApp:26 - Verifying Home Page text
+2026-04-05 00:34:44 INFO  HomePage:47 - Verifying Home Page by fetching name field text
+2026-04-05 00:34:47 DEBUG HomePage:51 - Name field text: Enter name here
+2026-04-05 00:34:47 INFO  LaunchApp:28 - Home Page text retrieved: Enter name here
+2026-04-05 00:34:47 DEBUG LaunchApp:32 - Validating Home Page text
+2026-04-05 00:34:47 INFO  LaunchApp:34 - Assertion PASSED: Home Page text is correct
+2026-04-05 00:34:47 INFO  LaunchApp:46 - ===== Ending LaunchAppTest =====
+2026-04-05 00:34:47 INFO  ExtentReportManager:81 - Test PASSED: LaunchAppTest
+2026-04-05 00:34:47 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:34:47 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:34:49 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:34:49 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:34:49 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:34:49 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:34:49 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:34:49 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:35:19 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\sunda\eclipse-workspace\MobileV3\testng.xml"
+2026-04-05 00:35:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\sunda\eclipse-workspace\MobileV3\testng.xml
+
+2026-04-05 00:35:20 INFO  ExtentReportManager:37 - ===== Test Execution Started =====
+2026-04-05 00:35:20 DEBUG ExtentReportManager:43 - Generated report name: Test-Report-2026.04.05.00.35.20.html
+2026-04-05 00:35:20 DEBUG ExtentReportManager:63 - OS: null, Browser: null
+2026-04-05 00:35:20 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:35:20 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:35:20 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:35:20 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:35:20 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:35:33 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:35:33 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:35:33 INFO  LaunchApp:20 - ===== Starting LaunchAppTest =====
+2026-04-05 00:35:33 INFO  LaunchApp:23 - Initializing HomePage
+2026-04-05 00:35:33 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:35:33 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:35:33 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:35:33 DEBUG LaunchApp:26 - Verifying Home Page text
+2026-04-05 00:35:33 INFO  HomePage:47 - Verifying Home Page by fetching name field text
+2026-04-05 00:35:37 DEBUG HomePage:51 - Name field text: Enter name here
+2026-04-05 00:35:37 INFO  LaunchApp:28 - Home Page text retrieved: Enter name here
+2026-04-05 00:35:37 DEBUG LaunchApp:32 - Validating Home Page text
+2026-04-05 00:35:37 INFO  LaunchApp:34 - Assertion PASSED: Home Page text is correct
+2026-04-05 00:35:37 INFO  LaunchApp:46 - ===== Ending LaunchAppTest =====
+2026-04-05 00:35:37 INFO  ExtentReportManager:81 - Test PASSED: LaunchAppTest
+2026-04-05 00:35:37 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:35:37 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:35:39 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:35:39 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:35:39 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:35:39 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:35:39 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:35:39 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:35:50 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:35:50 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:35:50 INFO  LetsShop:22 - ===== Starting LetsShopTest =====
+2026-04-05 00:35:50 INFO  LetsShop:26 - Initializing HomePage
+2026-04-05 00:35:50 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:35:50 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:35:50 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:35:50 DEBUG LetsShop:29 - Entering user name
+2026-04-05 00:35:50 INFO  HomePage:65 - Entering name in name field
+2026-04-05 00:35:50 DEBUG HomePage:69 - Sending name: Sid
+2026-04-05 00:35:55 DEBUG HomePage:73 - Name entered successfully
+2026-04-05 00:35:55 DEBUG LetsShop:32 - Clicking Let's Shop button
+2026-04-05 00:35:55 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:35:55 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:35:56 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:35:56 INFO  LetsShop:36 - Navigating to ProductPage
+2026-04-05 00:35:56 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:35:56 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:35:56 INFO  ProductPage:19 - ProductPage initialized
+2026-04-05 00:35:56 DEBUG LetsShop:39 - Fetching Product Page title
+2026-04-05 00:35:56 INFO  ProductPage:44 - Fetching Product Page title
+2026-04-05 00:35:58 DEBUG ProductPage:48 - Product page title: Products
+2026-04-05 00:35:58 INFO  LetsShop:41 - Product Page title retrieved: Products
+2026-04-05 00:35:58 DEBUG LetsShop:45 - Validating Product Page title
+2026-04-05 00:35:58 INFO  LetsShop:47 - Assertion PASSED: Product Page title is correct
+2026-04-05 00:35:58 INFO  LetsShop:59 - ===== Ending LetsShopTest =====
+2026-04-05 00:35:58 INFO  ExtentReportManager:81 - Test PASSED: LetsShopTest
+2026-04-05 00:35:58 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:35:58 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:36:00 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:36:00 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:36:00 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:36:00 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:36:00 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:36:00 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:36:10 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:36:10 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:36:10 INFO  CompletePurchase:25 - ===== Starting CompletePurchaseTest =====
+2026-04-05 00:36:10 INFO  CompletePurchase:29 - Initializing HomePage
+2026-04-05 00:36:10 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:36:10 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:36:10 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:36:10 DEBUG CompletePurchase:32 - Entering user name
+2026-04-05 00:36:10 INFO  HomePage:65 - Entering name in name field
+2026-04-05 00:36:10 DEBUG HomePage:69 - Sending name: Sid
+2026-04-05 00:36:16 DEBUG HomePage:73 - Name entered successfully
+2026-04-05 00:36:16 DEBUG CompletePurchase:35 - Clicking Let's Shop
+2026-04-05 00:36:16 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:36:16 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:36:16 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:36:16 INFO  CompletePurchase:39 - Navigating to ProductPage
+2026-04-05 00:36:16 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:36:16 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:36:16 INFO  ProductPage:19 - ProductPage initialized
+2026-04-05 00:36:16 DEBUG CompletePurchase:42 - Scrolling to product: Jordan 6 Rings
+2026-04-05 00:36:16 INFO  BasePage:42 - Scrolling to text: Jordan 6 Rings
+2026-04-05 00:36:16 DEBUG BasePage:45 - Executing Android UIAutomator scroll command
+2026-04-05 00:36:26 DEBUG BasePage:50 - Successfully scrolled to text: Jordan 6 Rings
+2026-04-05 00:36:26 DEBUG CompletePurchase:45 - Adding product to cart
+2026-04-05 00:36:26 INFO  ProductPage:62 - Attempting to add product 'Jordan 6 Rings' to cart
+2026-04-05 00:36:27 DEBUG ProductPage:70 - Checking product: Air Jordan 9 Retro
+2026-04-05 00:36:27 DEBUG ProductPage:70 - Checking product: Jordan 6 Rings
+2026-04-05 00:36:27 DEBUG ProductPage:74 - Match found. Clicking Add to Cart for: Jordan 6 Rings
+2026-04-05 00:36:27 INFO  ProductPage:80 - Product 'Jordan 6 Rings' added to cart successfully
+2026-04-05 00:36:27 DEBUG CompletePurchase:48 - Opening cart
+2026-04-05 00:36:27 INFO  ProductPage:101 - Clicking on View Cart button
+2026-04-05 00:36:28 DEBUG ProductPage:105 - View Cart button clicked successfully
+2026-04-05 00:36:28 INFO  CompletePurchase:52 - Navigating to CartPage
+2026-04-05 00:36:28 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:36:28 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:36:28 INFO  CartPage:21 - CartPage initialized
+2026-04-05 00:36:28 DEBUG CompletePurchase:55 - Clicking Terms & Conditions checkbox
+2026-04-05 00:36:28 INFO  CartPage:67 - Clicking Terms & Conditions checkbox
+2026-04-05 00:36:29 DEBUG CartPage:71 - Checkbox clicked successfully
+2026-04-05 00:36:29 DEBUG CompletePurchase:58 - Clicking Visit to Web button
+2026-04-05 00:36:29 INFO  CartPage:118 - Clicking 'Visit to Web' button
+2026-04-05 00:36:30 DEBUG CartPage:122 - Clicked 'Visit to Web' button
+2026-04-05 00:36:31 DEBUG CartPage:125 - Waited after clicking web button
+2026-04-05 00:36:31 INFO  CompletePurchase:61 - Waiting for WebView to load (30 seconds)
+2026-04-05 00:37:01 INFO  CompletePurchase:65 - Initializing FinalPurchasePage
+2026-04-05 00:37:01 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:37:01 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:37:01 INFO  FinalPurchasePage:18 - FinalPurchasePage initialized
+2026-04-05 00:37:01 INFO  CompletePurchase:69 - Fetching available contexts
+2026-04-05 00:37:02 DEBUG CompletePurchase:74 - Available context: NATIVE_APP
+2026-04-05 00:37:02 DEBUG CompletePurchase:74 - Available context: WEBVIEW_com.androidsample.generalstore
+2026-04-05 00:37:02 INFO  CompletePurchase:79 - Switching to WEBVIEW
+2026-04-05 00:37:02 INFO  BasePage:114 - Switching context to: WEBVIEW_com.androidsample.generalstore
+2026-04-05 00:37:02 DEBUG BasePage:117 - Available contexts: [NATIVE_APP, WEBVIEW_com.androidsample.generalstore]
+2026-04-05 00:37:04 DEBUG BasePage:121 - Successfully switched to context: WEBVIEW_com.androidsample.generalstore
+2026-04-05 00:37:04 DEBUG CompletePurchase:83 - Successfully switched to WEBVIEW
+2026-04-05 00:37:04 DEBUG CompletePurchase:91 - Performing search in WebView
+2026-04-05 00:37:04 INFO  FinalPurchasePage:32 - Entering text into search field
+2026-04-05 00:37:04 DEBUG FinalPurchasePage:37 - Sending text: CloudBerry QA Bootcamp
+2026-04-05 00:37:07 DEBUG FinalPurchasePage:41 - Submitting search using ENTER key
+2026-04-05 00:37:08 DEBUG FinalPurchasePage:45 - Text entered and submitted successfully
+2026-04-05 00:37:08 DEBUG CompletePurchase:95 - Pressing back button to return to native app
+2026-04-05 00:37:08 INFO  BasePage:97 - Pressing Android BACK button
+2026-04-05 00:37:12 DEBUG BasePage:101 - BACK button pressed successfully
+2026-04-05 00:37:12 INFO  CompletePurchase:100 - Switching back to NATIVE_APP
+2026-04-05 00:37:12 INFO  BasePage:114 - Switching context to: NATIVE_APP
+2026-04-05 00:37:13 DEBUG BasePage:117 - Available contexts: [NATIVE_APP, WEBVIEW_com.androidsample.generalstore]
+2026-04-05 00:37:15 DEBUG BasePage:121 - Successfully switched to context: NATIVE_APP
+2026-04-05 00:37:15 DEBUG CompletePurchase:104 - Successfully switched back to NATIVE_APP
+2026-04-05 00:37:15 INFO  CompletePurchase:120 - ===== Ending CompletePurchaseTest =====
+2026-04-05 00:37:15 INFO  ExtentReportManager:81 - Test PASSED: CompletePurchaseTest
+2026-04-05 00:37:15 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:37:15 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:37:17 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:37:17 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:37:17 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:37:17 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:37:17 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:37:17 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:37:28 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:37:28 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:37:28 INFO  AddToCart:23 - ===== Starting AddToCartTest =====
+2026-04-05 00:37:28 INFO  AddToCart:27 - Initializing HomePage
+2026-04-05 00:37:28 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:37:28 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:37:28 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:37:28 DEBUG AddToCart:30 - Entering user name
+2026-04-05 00:37:28 INFO  HomePage:65 - Entering name in name field
+2026-04-05 00:37:28 DEBUG HomePage:69 - Sending name: Sid
+2026-04-05 00:37:33 DEBUG HomePage:73 - Name entered successfully
+2026-04-05 00:37:33 DEBUG AddToCart:33 - Clicking Let's Shop button
+2026-04-05 00:37:33 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:37:33 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:37:34 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:37:34 INFO  AddToCart:37 - Navigating to ProductPage
+2026-04-05 00:37:34 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:37:34 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:37:34 INFO  ProductPage:19 - ProductPage initialized
+2026-04-05 00:37:34 DEBUG AddToCart:40 - Scrolling to product: Jordan 6 Rings
+2026-04-05 00:37:34 INFO  BasePage:42 - Scrolling to text: Jordan 6 Rings
+2026-04-05 00:37:34 DEBUG BasePage:45 - Executing Android UIAutomator scroll command
+2026-04-05 00:37:44 DEBUG BasePage:50 - Successfully scrolled to text: Jordan 6 Rings
+2026-04-05 00:37:44 DEBUG AddToCart:43 - Adding product to cart
+2026-04-05 00:37:44 INFO  ProductPage:62 - Attempting to add product 'Jordan 6 Rings' to cart
+2026-04-05 00:37:44 DEBUG ProductPage:70 - Checking product: Air Jordan 9 Retro
+2026-04-05 00:37:44 DEBUG ProductPage:70 - Checking product: Jordan 6 Rings
+2026-04-05 00:37:44 DEBUG ProductPage:74 - Match found. Clicking Add to Cart for: Jordan 6 Rings
+2026-04-05 00:37:45 INFO  ProductPage:80 - Product 'Jordan 6 Rings' added to cart successfully
+2026-04-05 00:37:45 DEBUG AddToCart:46 - Clicking View Cart
+2026-04-05 00:37:45 INFO  ProductPage:101 - Clicking on View Cart button
+2026-04-05 00:37:45 DEBUG ProductPage:105 - View Cart button clicked successfully
+2026-04-05 00:37:45 INFO  AddToCart:50 - Navigating to CartPage
+2026-04-05 00:37:45 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:37:45 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:37:45 INFO  CartPage:21 - CartPage initialized
+2026-04-05 00:37:45 DEBUG AddToCart:53 - Fetching added product name from cart
+2026-04-05 00:37:45 INFO  CartPage:96 - Getting added product name
+2026-04-05 00:37:45 DEBUG CartPage:99 - Waiting for product name to load
+2026-04-05 00:37:46 DEBUG CartPage:104 - Product name retrieved: Jordan 6 Rings
+2026-04-05 00:37:46 INFO  AddToCart:56 - Product in cart: Jordan 6 Rings
+2026-04-05 00:37:46 DEBUG AddToCart:60 - Validating product name in cart
+2026-04-05 00:37:46 INFO  AddToCart:64 - Assertion PASSED: Correct product added to cart
+2026-04-05 00:37:46 INFO  AddToCart:78 - ===== Ending AddToCartTest =====
+2026-04-05 00:37:46 INFO  ExtentReportManager:81 - Test PASSED: AddToCartTest
+2026-04-05 00:37:46 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:37:46 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:37:48 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:37:48 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:37:48 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:37:48 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:37:48 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:37:48 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:37:59 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:37:59 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:37:59 INFO  TermsAndConditions:23 - ===== Starting TermsAndConditionsTest =====
+2026-04-05 00:37:59 INFO  TermsAndConditions:27 - Initializing HomePage
+2026-04-05 00:37:59 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:37:59 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:37:59 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:37:59 DEBUG TermsAndConditions:30 - Entering user name
+2026-04-05 00:37:59 INFO  HomePage:65 - Entering name in name field
+2026-04-05 00:37:59 DEBUG HomePage:69 - Sending name: Sid
+2026-04-05 00:38:03 DEBUG HomePage:73 - Name entered successfully
+2026-04-05 00:38:03 DEBUG TermsAndConditions:33 - Clicking Let's Shop button
+2026-04-05 00:38:03 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:38:03 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:38:04 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:38:04 INFO  TermsAndConditions:37 - Navigating to ProductPage
+2026-04-05 00:38:04 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:38:04 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:38:04 INFO  ProductPage:19 - ProductPage initialized
+2026-04-05 00:38:04 DEBUG TermsAndConditions:40 - Scrolling to 'Jordan 6 Rings'
+2026-04-05 00:38:04 INFO  BasePage:42 - Scrolling to text: Jordan 6 Rings
+2026-04-05 00:38:04 DEBUG BasePage:45 - Executing Android UIAutomator scroll command
+2026-04-05 00:38:13 DEBUG BasePage:50 - Successfully scrolled to text: Jordan 6 Rings
+2026-04-05 00:38:13 DEBUG TermsAndConditions:43 - Adding product to cart
+2026-04-05 00:38:13 INFO  ProductPage:62 - Attempting to add product 'Jordan 6 Rings' to cart
+2026-04-05 00:38:13 DEBUG ProductPage:70 - Checking product: Air Jordan 9 Retro
+2026-04-05 00:38:13 DEBUG ProductPage:70 - Checking product: Jordan 6 Rings
+2026-04-05 00:38:13 DEBUG ProductPage:74 - Match found. Clicking Add to Cart for: Jordan 6 Rings
+2026-04-05 00:38:14 INFO  ProductPage:80 - Product 'Jordan 6 Rings' added to cart successfully
+2026-04-05 00:38:14 DEBUG TermsAndConditions:46 - Opening cart
+2026-04-05 00:38:14 INFO  ProductPage:101 - Clicking on View Cart button
+2026-04-05 00:38:14 DEBUG ProductPage:105 - View Cart button clicked successfully
+2026-04-05 00:38:14 INFO  TermsAndConditions:50 - Navigating to CartPage
+2026-04-05 00:38:14 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:38:14 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:38:14 INFO  CartPage:21 - CartPage initialized
+2026-04-05 00:38:14 DEBUG TermsAndConditions:53 - Clicking Terms & Conditions checkbox
+2026-04-05 00:38:14 INFO  CartPage:67 - Clicking Terms & Conditions checkbox
+2026-04-05 00:38:16 DEBUG CartPage:71 - Checkbox clicked successfully
+2026-04-05 00:38:16 DEBUG TermsAndConditions:56 - Long clicking Terms & Conditions button to view alert
+2026-04-05 00:38:16 INFO  CartPage:49 - Performing long click on Terms button
+2026-04-05 00:38:16 DEBUG CartPage:52 - Executing longClickGesture using JavascriptExecutor
+2026-04-05 00:38:18 DEBUG CartPage:57 - Long click action performed successfully
+2026-04-05 00:38:18 DEBUG TermsAndConditions:59 - Fetching alert title
+2026-04-05 00:38:18 INFO  CartPage:81 - Fetching alert title text
+2026-04-05 00:38:18 DEBUG CartPage:85 - Alert title retrieved: Terms Of Conditions
+2026-04-05 00:38:18 INFO  TermsAndConditions:61 - Alert title retrieved: Terms Of Conditions
+2026-04-05 00:38:18 DEBUG TermsAndConditions:65 - Validating alert title
+2026-04-05 00:38:18 INFO  TermsAndConditions:67 - Assertion PASSED: Alert title is correct
+2026-04-05 00:38:18 INFO  TermsAndConditions:79 - ===== Ending TermsAndConditionsTest =====
+2026-04-05 00:38:18 INFO  ExtentReportManager:81 - Test PASSED: TermsAndConditionsTest
+2026-04-05 00:38:18 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:38:18 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:38:20 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:38:20 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:38:20 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:38:20 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:38:20 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:38:20 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:38:31 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:38:31 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:38:31 INFO  ShopSelectingUnitedStates:22 - ===== Starting ShopSelectingUnitedStatesTest =====
+2026-04-05 00:38:31 INFO  ShopSelectingUnitedStates:26 - Initializing HomePage
+2026-04-05 00:38:31 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:38:31 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:38:31 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:38:31 DEBUG ShopSelectingUnitedStates:29 - Clicking on Country dropdown
+2026-04-05 00:38:31 INFO  HomePage:109 - Clicking country dropdown
+2026-04-05 00:38:35 DEBUG HomePage:113 - Country dropdown clicked successfully
+2026-04-05 00:38:35 DEBUG ShopSelectingUnitedStates:32 - Scrolling to and selecting 'United States'
+2026-04-05 00:38:35 INFO  BasePage:66 - Scrolling to and clicking text: United States
+2026-04-05 00:38:35 DEBUG BasePage:69 - Scrolling to element
+2026-04-05 00:39:53 DEBUG BasePage:74 - Clicking element with text: United States
+2026-04-05 00:39:54 DEBUG BasePage:78 - Successfully clicked on text: United States
+2026-04-05 00:39:54 DEBUG ShopSelectingUnitedStates:35 - Entering user name
+2026-04-05 00:39:54 INFO  HomePage:65 - Entering name in name field
+2026-04-05 00:39:54 DEBUG HomePage:69 - Sending name: Sid
+2026-04-05 00:39:55 DEBUG HomePage:73 - Name entered successfully
+2026-04-05 00:39:55 DEBUG ShopSelectingUnitedStates:38 - Clicking Let's Shop button
+2026-04-05 00:39:55 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:39:55 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:39:56 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:39:56 INFO  ShopSelectingUnitedStates:42 - Navigating to ProductPage
+2026-04-05 00:39:56 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:39:56 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:39:56 INFO  ProductPage:19 - ProductPage initialized
+2026-04-05 00:39:56 DEBUG ShopSelectingUnitedStates:45 - Fetching Product Page title
+2026-04-05 00:39:56 INFO  ProductPage:44 - Fetching Product Page title
+2026-04-05 00:39:58 DEBUG ProductPage:48 - Product page title: Products
+2026-04-05 00:39:58 INFO  ShopSelectingUnitedStates:47 - Product Page title retrieved: Products
+2026-04-05 00:39:58 DEBUG ShopSelectingUnitedStates:51 - Validating Product Page title
+2026-04-05 00:39:58 INFO  ShopSelectingUnitedStates:53 - Assertion PASSED: Product Page title is correct
+2026-04-05 00:39:58 INFO  ShopSelectingUnitedStates:65 - ===== Ending ShopSelectingUnitedStatesTest =====
+2026-04-05 00:39:58 INFO  ExtentReportManager:81 - Test PASSED: ShopSelectingUnitedStatesTest
+2026-04-05 00:39:58 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:39:58 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:40:00 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:40:00 INFO  BaseClass:31 - ========== Starting Appium Configuration ==========
+2026-04-05 00:40:00 DEBUG BaseClass:36 - Setting device name
+2026-04-05 00:40:00 DEBUG BaseClass:39 - Setting app path
+2026-04-05 00:40:00 DEBUG BaseClass:42 - Setting ChromeDriver path
+2026-04-05 00:40:00 DEBUG BaseClass:46 - Initializing Android Driver
+2026-04-05 00:40:10 DEBUG BaseClass:49 - Setting implicit wait
+2026-04-05 00:40:10 INFO  BaseClass:52 - Appium Driver initialized successfully
+2026-04-05 00:40:10 INFO  ValidateToastMessage:20 - ===== Starting ValidateToastMessageTest =====
+2026-04-05 00:40:10 INFO  ValidateToastMessage:24 - Initializing HomePage
+2026-04-05 00:40:10 INFO  BasePage:26 - Initializing BasePage with Appium driver
+2026-04-05 00:40:10 DEBUG BasePage:30 - PageFactory elements initialized successfully
+2026-04-05 00:40:10 INFO  HomePage:22 - HomePage initialized
+2026-04-05 00:40:10 DEBUG ValidateToastMessage:27 - Clicking Let's Shop button without entering name
+2026-04-05 00:40:10 INFO  HomePage:86 - Clicking 'Let's Shop' button
+2026-04-05 00:40:10 DEBUG HomePage:89 - Waiting for 'Let's Shop' button to be clickable
+2026-04-05 00:40:15 DEBUG HomePage:96 - 'Let's Shop' button clicked successfully
+2026-04-05 00:40:15 DEBUG ValidateToastMessage:30 - Fetching Toast message
+2026-04-05 00:40:15 INFO  HomePage:123 - Fetching toast message
+2026-04-05 00:40:16 DEBUG HomePage:128 - Toast message retrieved: Please enter your name
+2026-04-05 00:40:16 INFO  ValidateToastMessage:32 - Toast message retrieved: Please enter your name
+2026-04-05 00:40:16 DEBUG ValidateToastMessage:36 - Validating Toast message
+2026-04-05 00:40:16 INFO  ValidateToastMessage:38 - Assertion PASSED: Toast message is correct
+2026-04-05 00:40:16 INFO  ValidateToastMessage:50 - ===== Ending ValidateToastMessageTest =====
+2026-04-05 00:40:16 INFO  ExtentReportManager:81 - Test PASSED: ValidateToastMessageTest
+2026-04-05 00:40:16 INFO  BaseClass:63 - ========== Starting Driver Teardown ==========
+2026-04-05 00:40:16 DEBUG BaseClass:67 - Quitting driver
+2026-04-05 00:40:18 INFO  BaseClass:69 - Driver closed successfully
+2026-04-05 00:40:18 INFO  ExtentReportManager:150 - ===== Test Execution Finished =====
+2026-04-05 00:40:18 DEBUG ExtentReportManager:154 - Extent report flushed successfully.
+2026-04-05 00:40:18 DEBUG ExtentReportManager:159 - Opening report at: C:\Users\sunda\eclipse-workspace\MobileV3\reports\Test-Report-2026.04.05.00.35.20.html
